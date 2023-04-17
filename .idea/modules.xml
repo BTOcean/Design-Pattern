@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/behavioral_pattern/behavioral_pattern.iml" filepath="$PROJECT_DIR$/behavioral_pattern/behavioral_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creational_pattern/creational_pattern.iml" filepath="$PROJECT_DIR$/creational_pattern/creational_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/object-oriented-design-principles/object-oriented-design-principles.iml" filepath="$PROJECT_DIR$/object-oriented-design-principles/object-oriented-design-principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural_pattern/structural_pattern.iml" filepath="$PROJECT_DIR$/structural_pattern/structural_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/UML/uml.iml" filepath="$PROJECT_DIR$/UML/uml.iml" />
     </modules>
   </component>
