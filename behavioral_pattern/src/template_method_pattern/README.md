@@ -1,0 +1,13 @@
+# 模板方法模式
+- 是什么
+  - 定义一个操作的算法的步骤，将**一些步骤延迟到子类实现**，使得子类在**不改变一个算法的结构重写某些步骤**。
+- 适用场景
+  - 多个类具有相似的算法步骤
+- 角色构成
+  - AbstractClass抽象类：定义具体的算法框架
+  - ConcreteClass具体类：实现父类抽象方法选择覆盖普通方法（钩子函数）
+    - 钩子函数：让子类选择性的是否扩展，想要扩展的话就进行覆盖重写
+- 经典场景：
+  - AQS
+    - tryAcquire、tryRelease、tryAcquireShared、tryReleaseShared都是需要子类去具体实现的。
+    - 否则就抛UnsupportedOperationException异常
